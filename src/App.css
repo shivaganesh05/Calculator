@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Jost:wght@300;400;500&display=swap');
+
+.fontnamefamily{
+    font-family: "Barlow, sans-serif"
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+    background-color: #0A2E34;
+    color: #EBF3EE;
+    height: 68px;
+    padding-left:45px !important;
+}
+.header-logo{
+    width: 168px;
+    padding-top: 7px;
+}
+.profile-text{
+    color:#0A2E34;
+    margin: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-text:hover{
+    color:white;
+    background-color: #0A2E34;
+}
+.sidebar_content{
+    background-color: #ebf3ee;
+    color: #0A2E34;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content{
+    background-color: #f8f8f8;
+    color: #0A2E34;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link.active{
+    background-color: #0A2E34 !important;
+    color: #EBF3EE !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link{
+    color: #0A2E34;
 }
