@@ -31,6 +31,7 @@ const deleteLast =() => {
 
   return (
     <div className="calc">
+
     <div>
       <input id="answer" type="text" value={result} readOnly />
       <div>
@@ -39,7 +40,6 @@ const deleteLast =() => {
         <button   className='button' onClick={() => clickHandler('7')}>7</button>
         <button  className='button' onClick={() => deleteLast('del')}>Del
         </button>
-        {/* <BsBackspace size={30} color="red" /></button> */}
        
         <button  className='button' onClick={() => clickHandler('6')}>6</button>
         <button   className='button' onClick={() => clickHandler('5')}>5</button>
